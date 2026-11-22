@@ -2,6 +2,8 @@
 
 This repository contains my personal project predicting today's weather using LightGBM model. Files included (in alphabetical order):
 
+## Core files
+
 ### backfill_column.py 
 Allows to download historical data for new column if decided to add. To do this:
 1. add new column's name in _config.py_ in _DAILIES_
