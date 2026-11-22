@@ -1,0 +1,7 @@
+pandas
+numpy
+requests
+urllib3
+lightgbm
+joblib
+matplotlib
