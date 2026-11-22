@@ -6,7 +6,7 @@ This repository contains my personal project predicting today's weather using Li
 
 ### backfill_column.py 
 Allows to download historical data for new column if decided to add. To do this:
-1. add new column's name in _config.py_ in _DAILIES_
+1. add new column's name in `config.py` in `DAILIES`
 2. execute updating script in terminal:
 `python backfill_column.py --col <column_name>`
 
