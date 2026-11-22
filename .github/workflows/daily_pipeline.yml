@@ -36,6 +36,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add weather_forecast.db plots/ weather_lgbm_model.joblib model_features.joblib
+          git add weather_forecast.db weather_lgbm_model.joblib model_features.joblib
+          git add -f plots/ || true
           git diff --staged --quiet || git commit -m "chore: daily weather update and predictions"
           git push
