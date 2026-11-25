@@ -1,5 +1,7 @@
 # Weather forecast project
 
+![comparison plot](/plots/comparison_2026-11-22.png)
+
 This repository contains my personal project predicting today's weather using LightGBM model. Files included (in alphabetical order):
 
 ## Core files
